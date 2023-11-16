@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CretaceousApi", "CretaceousApi\CretaceousApi.csproj", "{98EF9F72-FE3C-4D69-852F-B41D9A0A2800}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98EF9F72-FE3C-4D69-852F-B41D9A0A2800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EF9F72-FE3C-4D69-852F-B41D9A0A2800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EF9F72-FE3C-4D69-852F-B41D9A0A2800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EF9F72-FE3C-4D69-852F-B41D9A0A2800}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B0DC00C-DA38-4387-B453-7CD8703B6D96}
+	EndGlobalSection
+EndGlobal
