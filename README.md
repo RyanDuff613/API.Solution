@@ -38,7 +38,7 @@ dotnet tool install --global dotnet-ef --version 6.0.0
   },
   "AllowedHosts": "*",
   "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Port=3306;database=cretaceous_api;uid=root;pwd=epicodus;"
+    "DefaultConnection": "Server=localhost;Port=3306;database=cretaceous_api;uid=[YOUR_USERNAME];pwd=[YOUR_MYSQL_PASSWORD];"
   }
 }
 ```
@@ -59,10 +59,8 @@ dotnet tool install --global dotnet-ef --version 6.0.0
 ```
 
 6. Create the database using the migrations in the Cretaceous Park API project. Open your shell (e.g., Terminal or GitBash) to the production directory "CretaceousApi", and run `dotnet ef database update`. You may need to run this command for each of the branches in this repo. 
-    - To optionally create a migration, run the command `dotnet ef migrations add MigrationName` where `MigrationName` is your custom name for the migration in UpperCamelCase. To learn more about migrations, visit the LHTP lesson [Code First Development and Migrations](https://www.learnhowtoprogram.com/c-and-net-part-time/many-to-many-relationships/code-first-development-and-migrations).
-7. Within the production directory "CretaceousApi", run `dotnet watch run --launch-profile "CretaceousApi-Production"` in the command line to start the project in production mode with a watcher. 
-8. To optionally further build out this project in development mode, start the project with `dotnet watch run` in the production directory "CretaceousApi".
-9. Use your program of choice to make API calls. In your API calls, use the domain _http://localhost:5000_. Keep reading to learn about all of the available endpoints.
+7. Within the production directory "CretaceousApi", run `dotnet run` in the command line to start the project server. 
+9. Use your program of choice to make API calls. In your API calls, use the domain _http://localhost:5000_. 
 
 ## Known Bugs
 - Please visit this projects [GitHub repository]() to submit Issues and Pull Requests.
