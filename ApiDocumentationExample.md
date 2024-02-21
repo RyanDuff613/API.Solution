@@ -1,7 +1,8 @@
 ### Documenting Endpoints in an API.
 In this app there's one model (`Animal`) and 5 endpoints related to that model. Your goal in creating the documentation for your API is to instruct users as clearly as possible how access and use these endpoints. This should include the URL for each endpoint, it's required and optional parameters and examples of responses the user should expect.
 
-### Base URL: http://localhost:5000
+### Base URL: http://localhost:5000/api
+### Visit Swagger documentation at: https://localhost:5001/swagger/index.html
 
 ### GET /api/Animals
 <table>
