@@ -31,6 +31,13 @@ else
     app.UseHttpsRedirection();
 }
 
+// Enable CORS
+app.UseCors(builder =>
+{
+    builder.WithOrigins("http://localhost:3000") // Update with your React application's origin
+        .AllowAnyMethod()
+        .AllowAnyHeader();
+});
 
 app.UseHttpsRedirection();
 
