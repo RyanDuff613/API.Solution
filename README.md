@@ -60,7 +60,7 @@ dotnet tool install --global dotnet-ef --version 6.0.0
 
 6. Create the database using the migrations in the Cretaceous Park API project. Open your shell (e.g., Terminal or GitBash) to the production directory "CretaceousApi", and run `dotnet ef database update`. You may need to run this command for each of the branches in this repo. 
 7. Within the production directory "CretaceousApi", run `dotnet run` in the command line to start the project server. 
-9. Use your program of choice to make API calls. In your API calls, use the domain _http://localhost:5000_. 
+9. Use your program of choice to make API calls. CORS policy is set in `Program.cs` and is configured to allow calls from _http://localhost:3000_. If you're developing a client side application to consume data from this API be sure to update the CORS policy to allow calls from the host location of the server your app is running on. 
 
 ## Project Roadmap, Notes and Documentation
 - [Project Roadmap and Notes](https://github.com/RyanDuff613/API.Solution/blob/main/Notes.md)
